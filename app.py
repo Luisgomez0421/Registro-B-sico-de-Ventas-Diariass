@@ -1,11 +1,11 @@
 print("Sistema básico de registro de ventas - RiwiTechStore")
 
-nombre_cliente = input("Ingrese el nombre del cliente: ")
+nombre_cliente = input("Ingresar el nombre del cliente:")
 
-precio_unitario = float(input("Ingrese el precio unitario del producto: "))
-cantidad = int(input("Ingrese la cantidad de productos comprados: "))
+precio_unitario = float(input("Ingrese el precio unitario del producto:"))
+cantidad = int(input("Ingrese la cantidad de productos comprados:"))
 
-vip_input = input("¿El cliente tiene membresía VIP? (si/no): ").strip().lower()
+vip_input = input("¿El cliente cuenta con alguna membresía VIP? (si/no): ").strip().lower()
 
 es_vip = vip_input == "si"
 
